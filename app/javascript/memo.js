@@ -1,4 +1,3 @@
-//window オブジェクトに turbo:load イベントリスナーを追加し、そのイベントが発生した際に post 関数を呼び出す処理
 function post (){
   const form = document.getElementById("form");
   form.addEventListener("submit", (e) => {
